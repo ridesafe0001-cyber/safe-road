@@ -1,0 +1,25 @@
+{
+  "device": {
+    "status": "online",
+    "isOnline": true,
+    "lastUpdated": 1704067200000,
+    "timestamp": 1704067200000,
+    "crashDetected": false,
+    "crashStatus": "normal",
+    "accelerometer": {
+      "x": 0.12,
+      "y": -0.05,
+      "z": 9.81
+    },
+    "gyroscope": {
+      "x": 0.01,
+      "y": 0.02,
+      "z": -0.01
+    },
+    "location": {
+      "latitude": 28.6139,
+      "longitude": 77.2090
+    }
+  }
+}
+

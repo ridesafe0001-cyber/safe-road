@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover SafeRide's features: crash detection, live tracking, and emergency alerts.">
+    <title>Features - SafeRide</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html">
+                    <img src="SAFE.png" alt="SafeRide Logo" class="logo-img">
+                </a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="features.html" class="active">Features</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Features Content -->
+    <main class="page-content">
+        <div class="container">
+            <div class="page-header">
+                <h1>SafeRide Features</h1>
+                <p class="page-subtitle">Comprehensive Safety Technology for Modern Vehicles</p>
+            </div>
+
+            <section class="feature-detail">
+                <div class="feature-detail-content">
+                    <div class="feature-icon-large">CD</div>
+                    <h2>Crash Detection</h2>
+                    <p>
+                        SafeRide's core feature is its advanced crash detection system. Using high-precision accelerometers 
+                        and gyroscopes, the system continuously monitors vehicle motion patterns. When sudden changes in 
+                        acceleration, orientation, or impact forces are detected, the system immediately identifies a 
+                        potential crash event.
+                    </p>
+                    <p>
+                        The detection algorithm analyzes sensor data in real-time, filtering out normal driving conditions 
+                        (braking, turning, acceleration) while flagging abnormal patterns that indicate collisions. This 
+                        intelligent filtering reduces false positives while ensuring genuine crashes are detected within 
+                        milliseconds of occurrence.
+                    </p>
+                    <ul class="feature-sublist">
+                        <li>Millisecond-level detection response</li>
+                        <li>Multi-axis sensor analysis (X, Y, Z)</li>
+                        <li>Impact force threshold calibration</li>
+                        <li>Automatic crash event logging</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="feature-detail">
+                <div class="feature-detail-content">
+                    <div class="feature-icon-large">LT</div>
+                    <h2>Live Tracking</h2>
+                    <p>
+                        Real-time vehicle tracking ensures that you always know the status and location of your vehicle. 
+                        The SafeRide dashboard provides continuous updates on device connectivity, sensor readings, and 
+                        geographic position.
+                    </p>
+                    <p>
+                        The tracking system integrates GPS data with sensor telemetry, creating a comprehensive view of 
+                        vehicle status. Whether monitoring a single vehicle or a fleet, the system provides:
+                    </p>
+                    <ul class="feature-sublist">
+                        <li>Real-time location on interactive maps</li>
+                        <li>Device online/offline status</li>
+                        <li>Live accelerometer and gyroscope readings</li>
+                        <li>Historical data visualization</li>
+                        <li>Timestamp tracking for all events</li>
+                    </ul>
+                    <p>
+                        All data is securely transmitted and stored, ensuring instant updates and reliable monitoring 
+                        capabilities for vehicle safety management.
+                    </p>
+                </div>
+            </section>
+
+            <section class="feature-detail">
+                <div class="feature-detail-content">
+                    <div class="feature-icon-large">EA</div>
+                    <h2>SOS / Emergency Alerts</h2>
+                    <p>
+                        When a crash is detected, SafeRide's emergency alert system activates automatically. This feature 
+                        is designed to ensure that help arrives as quickly as possible, even when vehicle occupants are 
+                        unable to call for assistance.
+                    </p>
+                    <p>
+                        <strong>How It Works (Conceptual):</strong>
+                    </p>
+                    <ol class="feature-sublist">
+                        <li><strong>Immediate Detection:</strong> Crash sensors trigger the alert system</li>
+                        <li><strong>Location Transmission:</strong> GPS coordinates are sent to emergency services</li>
+                        <li><strong>Contact Notification:</strong> Pre-configured emergency contacts receive alerts</li>
+                        <li><strong>Status Updates:</strong> Real-time updates provided to responders</li>
+                    </ol>
+                    <p>
+                        <strong>Future Implementation:</strong> The emergency alert system is architected to integrate 
+                        with emergency service APIs, SMS gateways, and automated calling systems. In a production 
+                        environment, this would enable direct communication with local emergency services, providing 
+                        them with precise location data, crash severity indicators, and vehicle information.
+                    </p>
+                    <p>
+                        For demonstration purposes, the alert system is shown conceptually. In a full implementation, 
+                        it would include:
+                    </p>
+                    <ul class="feature-sublist">
+                        <li>Direct integration with emergency dispatch systems</li>
+                        <li>Automated SMS/voice calls to emergency contacts</li>
+                        <li>Crash severity assessment and reporting</li>
+                        <li>Two-way communication capabilities</li>
+                        <li>Integration with vehicle telematics systems</li>
+                    </ul>
+                </div>
+            </section>
+
+            <div class="cta-section">
+                <h2>Get in Touch</h2>
+                <p>Have questions about SafeRide? Contact us to learn more about our technology.</p>
+                <a href="contact.html" class="btn btn-primary">Contact Us</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 SafeRide. Built for academic evaluation and innovation demos.</p>
+        </div>
+    </footer>
+
+    <script src="js/navigation.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact SafeRide for inquiries, support, or collaboration opportunities.">
+    <title>Contact - SafeRide</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html">
+                    <img src="SAFE.png" alt="SafeRide Logo" class="logo-img">
+                </a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Contact Content -->
+    <main class="page-content">
+        <div class="container">
+            <div class="page-header">
+                <h1>Contact Us</h1>
+                <p class="page-subtitle">Get in touch with the SafeRide team</p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Reach Out</h2>
+                    <p>
+                        Have questions about SafeRide? Interested in collaboration, research partnerships, or learning more 
+                        about our technology? We'd love to hear from you.
+                    </p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <strong>Email:</strong>
+                            <a href="mailto:ridesafe0001@gmail.com">ridesafe0001@gmail.com</a>
+                        </div>
+                        <div class="contact-method">
+                            <strong>Project Type:</strong>
+                            <span>Academic Research & Innovation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <h2>Send a Message</h2>
+                    <div class="form-group">
+                        <label for="name">Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <div class="form-message" id="formMessage"></div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 SafeRide. Built for academic evaluation and innovation demos.</p>
+        </div>
+    </footer>
+
+    <script src="js/navigation.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>
+
